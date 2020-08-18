@@ -115,12 +115,12 @@ module.exports = {
       url: '/',
     },
     {
-      label: 'Blog',
-      url: 'https://journal.lampetty.net/',
+      label: 'Blog(EN)',
+      url: 'https://journal.lampetty.net/archive/category/in%20English',
     },
     {
-      label: 'Portfolio',
-      url: '/portfolio',
+      label: 'Blog(JA)',
+      url: 'https://journal.lampetty.net/',
     }
   ]
 }
