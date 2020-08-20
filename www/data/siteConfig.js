@@ -1,11 +1,11 @@
 module.exports = {
-  siteTitle: `Hi! I'm oinume!`,
+  siteTitle: `Hello`,
   siteDescription: `This web site is about oinume, Kazuhiro Oinuma`,
   keyWords: ['gatsbyjs', 'react', 'curriculum'],
   authorName: 'Kazuhiro Oinuma',
   twitterUsername: 'oinume',
   githubUsername: 'oinume',
-  authorAvatar: '/images/avatar.jpeg',
+  authorAvatar: '/images/avatar-oinume.png',
   authorDescription: `Developer, passionate about what I do. Always interested in how the sites were made, I started to study HTML by hobby. <br />
     In 2012 I started working as a support technician and I approached the developers.
     In 2015, I started to study C # and started to contribute with the team giving maintenance in an application in C # and .NET. <br />
@@ -101,7 +101,7 @@ module.exports = {
   },
   siteUrl: 'https://santosfrancisco.github.io/gatsbystarter-cv',
   pathPrefix: '/gatsby-starter-cv', // Note: it must *not* have a trailing slash.
-  siteCover: '/images/cover.jpeg',
+  siteCover: '/images/cover-oinume.jpg',
   googleAnalyticsId: 'UA-000000000-1',
   background_color: '#ffffff',
   theme_color: '#25303B',
