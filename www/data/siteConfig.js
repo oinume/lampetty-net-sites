@@ -92,19 +92,7 @@ In addition, my current role at Merpay is tech lead. I care about how to maximiz
       description: 'TBD'
     },
   ],
-  portfolio: [
-    {
-      image: '/images/gatsby-starter-cv.png',
-      description: 'Gatsby starter CV template',
-      url: 'https://www.gatsbyjs.org/starters/santosfrancisco/gatsby-starter-cv/'
-    },
-    {
-      image: '/images/awesome-grid.png',
-      description: 'Responsive grid for ReactJS',
-      url: 'https://github.com/santosfrancisco/react-awesome-styled-grid'
-    },
-    /* more portifolio items here */
-  ],
+  portfolio: [],
   social: {
     twitter: 'https://twitter.com/oinume',
     linkedin: 'https://www.linkedin.com/in/oinume',
