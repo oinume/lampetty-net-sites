@@ -6,10 +6,22 @@ module.exports = {
   twitterUsername: 'oinume',
   githubUsername: 'oinume',
   authorAvatar: '/images/avatar-oinume.png',
-  authorDescription: `Developer, passionate about what I do. Always interested in how the sites were made, I started to study HTML by hobby. <br />
-    In 2012 I started working as a support technician and I approached the developers.
-    In 2015, I started to study C # and started to contribute with the team giving maintenance in an application in C # and .NET. <br />
-    I currently work as a frontend developer and mainly work with <strong>Javascript, NodeJS e React.</strong>`,
+  authorDescription: `
+<p>Software Engineer, with more than a decade of experience of product development. My key strengths are:</p>
+<ul>
+<li>Building scalable API with Go (2000+ req / sec)</li>
+<li>Migrating from monolith to microservices architecture</li>
+</ul>
+<p>
+In addition, my current role at Merpay is tech lead. I care about how to maximize my team performance. As tech lead, I did:
+</p>
+<ul>
+<li>Decision to balance business KPI and solving technical issues.</li>
+<li>Wrote many documents like coding guideline, architecture diagram and on-call document, etc.</li>
+<li>A lot of code reviews</li>
+<li>Improve delivery cycle</li>
+</ul>
+`,
   skills: [
     {
       name: 'Go',
