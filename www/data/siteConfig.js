@@ -52,23 +52,23 @@ In addition, my current role at Merpay is tech lead. I care about how to maximiz
   jobs: [
     /* more jobs here */
     {
-      company: "Mercari",
+      company: 'Mercari',
       begin: {
         month: 'may',
         year: '2016'
       },
       duration: null,
-      occupation: "Backend engineer",
-      description: "TBD"
+      occupation: 'Backend engineer',
+      description: 'TBD'
     },
     {
-      company: "CyberAgent",
+      company: 'CyberAgent',
       begin: {
         month: 'mar',
         year: '2010'
       },
       duration: '6 years and 1 month',
-      occupation: "Backend and DevOps engineer",
+      occupation: 'Backend and DevOps engineer',
       description: 'TBD'
     },
     {
@@ -78,38 +78,38 @@ In addition, my current role at Merpay is tech lead. I care about how to maximiz
         year: '2005'
       },
       duration: '4 years and 5 months',
-      occupation: "Backend engineer",
-      description: "TBD"
+      occupation: 'Backend engineer',
+      description: 'TBD'
     },
     {
-      company: "NetCentury",
+      company: 'NetCentury',
       begin: {
         month: 'apr',
         year: '2001'
       },
       duration: '3 years and 3 month',
-      occupation: "Backend engineer",
-      description: "TBD"
+      occupation: 'Backend engineer',
+      description: 'TBD'
     },
   ],
   portfolio: [
     {
-      image: "/images/gatsby-starter-cv.png",
-      description: "Gatsby starter CV template",
-      url: "https://www.gatsbyjs.org/starters/santosfrancisco/gatsby-starter-cv/"
+      image: '/images/gatsby-starter-cv.png',
+      description: 'Gatsby starter CV template',
+      url: 'https://www.gatsbyjs.org/starters/santosfrancisco/gatsby-starter-cv/'
     },
     {
-      image: "/images/awesome-grid.png",
-      description: "Responsive grid for ReactJS",
-      url: "https://github.com/santosfrancisco/react-awesome-styled-grid"
+      image: '/images/awesome-grid.png',
+      description: 'Responsive grid for ReactJS',
+      url: 'https://github.com/santosfrancisco/react-awesome-styled-grid'
     },
     /* more portifolio items here */
   ],
   social: {
-    twitter: "https://twitter.com/oinume",
-    linkedin: "https://www.linkedin.com/in/oinume",
-    github: "https://github.com/oinume",
-    email: "oinume@gmail.com"
+    twitter: 'https://twitter.com/oinume',
+    linkedin: 'https://www.linkedin.com/in/oinume',
+    github: 'https://github.com/oinume',
+    email: 'oinume@gmail.com'
   },
   siteUrl: 'https://santosfrancisco.github.io/gatsbystarter-cv',
   pathPrefix: '/gatsby-starter-cv', // Note: it must *not* have a trailing slash.
@@ -117,7 +117,7 @@ In addition, my current role at Merpay is tech lead. I care about how to maximiz
   googleAnalyticsId: 'UA-000000000-1',
   background_color: '#ffffff',
   theme_color: '#25303B',
-  fontColor: "#000000cc",
+  fontColor: '#000000cc',
   enableDarkmode: false, // If true, enables dark mode switch
   display: 'minimal-ui',
   icon: 'src/assets/gatsby-icon.png',
