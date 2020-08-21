@@ -30,7 +30,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-artifact@master
         with:
-          name: www/public
+          name: www-public
           path: www/public
   deploy:
     needs: build
