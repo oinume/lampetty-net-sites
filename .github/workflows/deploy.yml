@@ -40,7 +40,7 @@ jobs:
       - name: Download artifact
         uses: actions/download-artifact@master
         with:
-          name: www/public
+          name: www-public
       - name: Deploy to Firebase hosting
         if: github.ref == 'refs/heads/master' && github.event_name == 'push'
         uses: w9jds/firebase-action@master
