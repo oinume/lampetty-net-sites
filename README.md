@@ -28,9 +28,19 @@ gatsby new www https://github.com/santosfrancisco/gatsby-starter-cv
 
 ## www
 
+### Modify content
+
 ```
 cd www
 npm run develop
 ```
 
 Open http://localhost:8000/ with browser.
+
+### Build
+
+```
+cd www
+gatsby build
+```
+

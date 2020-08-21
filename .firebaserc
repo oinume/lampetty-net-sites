@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "lampetty-net-sites"
+  },
+  "targets": {
+    "lampetty-net-sites": {
+      "hosting": {
+        "www": [
+          "lampetty-net-sites"
+        ]
+      }
+    }
+  }
+}
