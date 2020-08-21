@@ -9,14 +9,14 @@ jobs:
         with:
           node-version: "12.x"
       - uses: actions/checkout@v2
-      - name: Cache node modules
+      - name: Cache www/node_modules
         uses: actions/cache@v2
         env:
-          cache-name: cache-node-modules
+          cache-name: www-v1
         with:
-          # npm cache files are stored in `~/.npm` on Linux/macOS
-          path: ~/.npm
-          key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ hashFiles('**/package-lock.json') }}
+          path: |
+            www/node_modules
+          key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ hashFiles('www/package-lock.json') }}
           restore-keys: |
             ${{ runner.os }}-build-${{ env.cache-name }}-
             ${{ runner.os }}-build-
