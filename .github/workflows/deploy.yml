@@ -1,25 +1,22 @@
 name: Deploy to Firebase hosting
-on:
-  push:
-    branches: [ master ]
-
+on: push
 jobs:
-  build-and-deploy:
+  build:
     runs-on: ubuntu-latest
     steps:
-      - name: "Set up NodeJS"
+      - name: Set up NodeJS
         uses: actions/setup-node@v1
         with:
           node-version: "12.x"
       - uses: actions/checkout@v2
-      - name: Cache node modules
+      - name: Cache www/node_modules
         uses: actions/cache@v2
         env:
-          cache-name: cache-node-modules
+          cache-name: www-v1
         with:
-          # npm cache files are stored in `~/.npm` on Linux/macOS
-          path: ~/.npm
-          key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ hashFiles('**/package-lock.json') }}
+          path: |
+            www/node_modules
+          key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ hashFiles('www/package-lock.json') }}
           restore-keys: |
             ${{ runner.os }}-build-${{ env.cache-name }}-
             ${{ runner.os }}-build-
@@ -30,9 +27,26 @@ jobs:
           npm install
           npm run build --if-present
           cd ..
+      - name: Upload artifact
+        uses: actions/upload-artifact@master
+        with:
+          name: www-public
+          path: www/public
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@master
+      - name: Download artifact
+        uses: actions/download-artifact@master
+        with:
+          name: www-public
       - name: Deploy to Firebase hosting
+        if: github.ref == 'refs/heads/master' && github.event_name == 'push'
         uses: w9jds/firebase-action@master
         with:
           args: deploy
         env:
           FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
+# TODO: split file build and deploy
+# https://github.community/t/is-there-a-way-to-depend-on-actions-from-another-file/16620/2
