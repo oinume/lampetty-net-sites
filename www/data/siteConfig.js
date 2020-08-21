@@ -92,7 +92,7 @@ In addition, my current role at Merpay is tech lead. I care about how to maximiz
       description: ''
     },
   ],
-  portfolio: [],
+  portifolio: [],
   social: {
     twitter: 'https://twitter.com/oinume',
     linkedin: 'https://www.linkedin.com/in/oinume',
