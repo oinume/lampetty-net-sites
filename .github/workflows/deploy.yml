@@ -18,6 +18,7 @@ jobs:
       - name: Build
         run: |
           cd www
+          npm install
           npm run build --if-present
           cd ..
       - name: Deploy to Firebase hosting
