@@ -59,7 +59,7 @@ In addition, my current role at Merpay is tech lead. I care about how to maximiz
       },
       duration: null,
       occupation: 'Backend engineer',
-      description: 'TBD'
+      description: 'Tech lead in backend area. Migration from monolith to microservice for `Merpay Smart Payment`'
     },
     {
       company: 'CyberAgent',
@@ -68,8 +68,8 @@ In addition, my current role at Merpay is tech lead. I care about how to maximiz
         year: '2010'
       },
       duration: '6 years and 1 month',
-      occupation: 'Backend and DevOps engineer',
-      description: 'TBD'
+      occupation: 'Backend engineer',
+      description: 'Backend and DevOps engineer. Java, Go, MySQL and AWS'
     },
     {
       company: 'Mixi',
@@ -78,8 +78,8 @@ In addition, my current role at Merpay is tech lead. I care about how to maximiz
         year: '2005'
       },
       duration: '4 years and 5 months',
-      occupation: 'Backend engineer',
-      description: 'TBD'
+      occupation: 'Fullstack engineer',
+      description: 'Fullstack engineer in `Find Job!` team'
     },
     {
       company: 'NetCentury',
@@ -89,7 +89,7 @@ In addition, my current role at Merpay is tech lead. I care about how to maximiz
       },
       duration: '3 years and 3 month',
       occupation: 'Backend engineer',
-      description: 'TBD'
+      description: ''
     },
   ],
   portfolio: [],
