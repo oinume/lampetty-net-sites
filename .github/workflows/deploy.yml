@@ -49,5 +49,3 @@ jobs:
           args: deploy
         env:
           FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
-# TODO: split file build and deploy
-# https://github.community/t/is-there-a-way-to-depend-on-actions-from-another-file/16620/2
